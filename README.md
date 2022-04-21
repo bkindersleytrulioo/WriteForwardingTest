@@ -41,7 +41,7 @@ Launch Windows Server 2019 Base, t2.micro EC2 instance.
 RDP to EC2 instance and copy `exe` and appsettings file to it. Modify `appsettings.json` entries; set `ConnectionString` like
 
 ```
-`password=data123!#;User Id=test_user;server={secondary_reader_endpoint};port={cluster_port};database=test_db;charset=utf8;`
+password=data123!#;User Id=test_user;server={secondary_reader_endpoint};port={cluster_port};database=test_db;charset=utf8;
 ```
 
 Set AuroraReadConsistency to one of `eventual`, `session`, `global`.
