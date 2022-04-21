@@ -32,8 +32,6 @@ dotnet publish --configuration Release -p:PublishSingleFile=true -p:IncludeNativ
 
 This should produce `WriteForwardingTest.exe` and `appsettings.json` in the `bin\Release\net6.0\win-x64\publish` directory.
 
-(Or use the ones included in the repo.)
-
 
 Launch Windows Server 2019 Base, t2.micro EC2 instance.
 
